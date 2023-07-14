@@ -16,5 +16,7 @@ https://integrativemodeling.org/2.19.0/doc/manual/installation.html
 
 See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the complete tutorial text.
 
- 
+## Running the modeling scripts
+
+`python actin_modeling_1.py out_ 1` 
 
