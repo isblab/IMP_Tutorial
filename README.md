@@ -18,5 +18,7 @@ See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the 
 
 ## Running the modeling scripts
 
+Run from the `Play` directory. 
+
 `python actin_modeling_1.py out_ 1 10` 
 
