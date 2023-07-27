@@ -35,7 +35,7 @@ xl_weight = 10.0
 em_weight = 1000.0
 
 # Topology File
-topology_file = "../data/topology.txt"
+topology_file = "../data/topology_test.txt"
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Here is where the work begins
@@ -71,4 +71,3 @@ fname = 'test.rmf'
 rh = RMF.create_rmf_file(fname)
 IMP.rmf.add_hierarchy(rh, root_hier)
 IMP.rmf.save_frame(rh)
-
