@@ -1,0 +1,10 @@
+|directories|
+|pdb_dir|../data/pdb/|
+|fasta_dir|../data/fasta/|
+|gmm_dir|../data/gmm_files/|
+
+|topology_dictionary|
+|molecule_name | color | fasta_fn     | fasta_id           | pdb_fn | chain | residue_range | pdb_offset | bead_size | em_residues_per_gaussian | rigid_body | super_rigid_body | chain_of_super_rigid_bodies | 
+|geltrop       |red    |4pkh.fasta.txt|gelsolin-tropomyosin|4pki.pdb|G      |52,177         |-51         |10         |10                        |1            |1                |                             |
+|geltrop       |gray   |4pki.fasta.txt|gelsolin-tropomyosin|BEADS   |G      |178,195        |-51         |10         |10                        |1            |1                |                             |
+|geltrop       |blue   |4pkh.fasta.txt|gelsolin-tropomyosin|4pki.pdb|G      |1170,1349      |-1025       |10         |10                        |2            |1                |                             |
