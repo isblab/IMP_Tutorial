@@ -35,7 +35,11 @@ xl_weight = 10.0
 em_weight = 1000.0
 
 # Topology File
+<<<<<<< HEAD
+topology_file = "./topology_test.txt"
+=======
 topology_file = "../data/topology_test.txt"
+>>>>>>> 151896a77b1c602e8c30c33460ae56e2eb791488
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Here is where the work begins
@@ -67,7 +71,7 @@ molecules = t.get_components()
 # # Uncomment this line for verbose output of the representation
 IMP.atom.show_with_representations(root_hier)
 # output to RMF
-fname = 'test.rmf'
+fname = 'initial.rmf'
 rh = RMF.create_rmf_file(fname)
 IMP.rmf.add_hierarchy(rh, root_hier)
 IMP.rmf.save_frame(rh)
