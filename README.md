@@ -9,6 +9,12 @@ https://github.com/salilab/imp
 
 https://integrativemodeling.org/2.19.0/doc/manual/installation.html 
 
+### Paths to IMP installation on the workstations at the workshop
+Primarily: `/usr/lib`
+Some packages are at : `/usr/share`
+
+`create_gmm.py`: `/usr/lib/pythonxx/dist-packages`
+
 
 ## Actin Tutorial  
 
