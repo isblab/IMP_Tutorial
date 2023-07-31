@@ -10,10 +10,13 @@ https://github.com/salilab/imp
 https://integrativemodeling.org/2.19.0/doc/manual/installation.html
 
 ### Paths to IMP installation on the workstations at the workshop
+
 Primarily: `/usr/lib/pythonxx/dist-packages/IMP`
+
 Some packages are at : `/usr/share`
 
 `create_gmm.py`: `/usr/lib/pythonxx/dist-packages/IMP/isd`
+
 `process_output.py`: `/usr/lib/pythonxx/dist-packages/IMP/pmi`
 
 If you want to find an IMP script call `locate`.
@@ -26,7 +29,7 @@ See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the 
 
 ## Running the modeling scripts
 
-Run from the `Play` directory.Examples:
+Run from the `Play` directory. Examples:
 
 `python3  actin_modeling_1.py out_ 1 10`
 
