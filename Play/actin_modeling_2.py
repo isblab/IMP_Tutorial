@@ -68,7 +68,7 @@ molecules = t.get_components()
 #####################################################
 
 # Restraints define functions that score the model based on
-# input information.  
+# input information.
 #
 # Restraint objects are first created in the definition.
 # To be evaluated, the restraint object must be add_to_model().
@@ -96,7 +96,7 @@ for m in root_hier.get_children()[0].get_children():
 # -----------------------------
 # %%%%% EXCLUDED VOLUME RESTRAINT
 #
-# Keeps particles from occupying the same area in space. 
+# Keeps particles from occupying the same area in space.
 # Here, we pass a list of both molecule chains to included_objects to apply this to every residue.
 # We could also have passed root_hier to obtain the same behavior.
 #
@@ -123,22 +123,22 @@ output_objects.append(evr)
 # A,50,G,171
 # A,50,G,189
 #
-# This restraint allows for ambiguity in the crosslinked residues, 
+# This restraint allows for ambiguity in the crosslinked residues,
 # a confidence metric for each crosslink and multiple states.
-# See the PMI documentation or the MMB book chapter for a 
+# See the PMI documentation or the MMB book chapter for a
 # full discussion of implementing crosslinking restraints.
 
 # This first step is used to translate the crosslinking data file.
 # The KeywordsConverter maps a column label from the xl data file
-# to the value that PMI understands. 
+# to the value that PMI understands.
 xldbkc = IMP.pmi.io.crosslink.CrossLinkDataBaseKeywordsConverter()
 # Here, we just use the standard keys.
-xldbkc.set_standard_keys() 
+xldbkc.set_standard_keys()
 # One can define custom keywords using the syntax below.
 # For example if the Protein1 column header is "prot_1"
 # xldbkc["Protein1"]="prot_1"
 
-# The CrossLinkDataBase translates and stores the crosslink information 
+# The CrossLinkDataBase translates and stores the crosslink information
 # from the file "xl_data" using the KeywordsConverter.
 xldb = IMP.pmi.io.crosslink.CrossLinkDataBase()
 xldb.create_set_from_file(file_name=xl_data,
@@ -149,10 +149,10 @@ xlr = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
                 database=xldb, # The crosslink database.
                 length=25,              # The crosslinker plus side chain length
                 resolution=1,           # The resolution at which to evaluate the crosslink
-                slope=0.0001,           # This adds a linear term to the scoring function 
+                slope=0.0001,           # This adds a linear term to the scoring function
                                         #   to bias crosslinks towards each other
-                weight=xl_weight)       # Scaling factor for the restraint score.
-
+                weight=xl_weight,       # Scaling factor for the restraint score.
+                linker=ihm.cross_linkers.dss) # The linker chemistry
 
 output_objects.append(xlr)
 
@@ -162,8 +162,8 @@ output_objects.append(xlr)
 # Scores a model based on its cross-correlation to an EM density.
 # Since cross-sorrelation is very expensive, we approximate both
 # the EM map and model as a set of 3D Gaussians (done in Representation).
-#   
-# First, collect all density particles from the model. 
+#
+# First, collect all density particles from the model.
 densities = IMP.atom.Selection(root_hier,representation_type=IMP.atom.DENSITIES).get_selected_particles()
 
 emr = IMP.pmi.restraints.em.GaussianEMRestraint(
@@ -182,12 +182,12 @@ output_objects.append(emr)
 # With our representation and scoring functions determined, we can now sample
 # the configurations of our model with respect to the information.
 
-# First shuffle all particles to randomize the starting point of the 
+# First shuffle all particles to randomize the starting point of the
 # system. For larger systems, you may want to increase max_translation
 IMP.pmi.tools.shuffle_configuration(root_hier,
                                     max_translation=1000)
 
-# Shuffling randomizes the bead positions. It's good to 
+# Shuffling randomizes the bead positions. It's good to
 # allow these to optimize first to relax large connectivity
 # restraint scores.  100-500 steps is generally sufficient.
 dof.optimize_flexible_beads(500)
@@ -224,5 +224,4 @@ rex=IMP.pmi.macros.ReplicaExchange0(mdl,
 # Ok, now we finally do the sampling!
 rex.execute_macro()
 
-# Outputs are then analyzed in a separate analysis script. 
-
+# Outputs are then analyzed in a separate analysis script.
