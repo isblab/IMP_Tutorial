@@ -35,11 +35,10 @@ xl_weight = 10.0
 em_weight = 1000.0
 
 # Topology File
-<<<<<<< HEAD
+
 topology_file = "./topology_test.txt"
-=======
+
 topology_file = "../data/topology_test.txt"
->>>>>>> 151896a77b1c602e8c30c33460ae56e2eb791488
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Here is where the work begins
