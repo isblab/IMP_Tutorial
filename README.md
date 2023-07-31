@@ -1,20 +1,22 @@
 # IMP Tutorial
 
-This github repository corresponds to the [IMP workshop](https://sites.google.com/acads.iiserpune.ac.in/masfe/program/workshop?authuser=0) in [MASFE 2023](https://sites.google.com/acads.iiserpune.ac.in/masfe/) at IISER Pune. 
+This github repository corresponds to the [IMP workshop](https://sites.google.com/acads.iiserpune.ac.in/masfe/program/workshop?authuser=0) in [MASFE 2023](https://sites.google.com/acads.iiserpune.ac.in/masfe/) at IISER Pune.
 
 ## IMP installation and resources
-https://integrativemodeling.org/doc.html 
+https://integrativemodeling.org/doc.html
 
-https://github.com/salilab/imp 
+https://github.com/salilab/imp
 
-https://integrativemodeling.org/2.19.0/doc/manual/installation.html 
+https://integrativemodeling.org/2.19.0/doc/manual/installation.html
 
 ### Paths to IMP installation on the workstations at the workshop
-Primarily: `/usr/lib`
+Primarily: `/usr/lib/pythonxx/dist-packages/IMP`
 Some packages are at : `/usr/share`
 
-`create_gmm.py`: `/usr/lib/pythonxx/dist-packages`
+`create_gmm.py`: `/usr/lib/pythonxx/dist-packages/IMP/isd`
+`process_output.py`: `/usr/lib/pythonxx/dist-packages/IMP/pmi`
 
+If you want to find an IMP script call `locate`.
 
 ## Actin Tutorial  
 
@@ -24,7 +26,8 @@ See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the 
 
 ## Running the modeling scripts
 
-Run from the `Play` directory. 
+Run from the `Play` directory.Examples:
 
-`python actin_modeling_1.py out_ 1 10` 
+`python3  actin_modeling_1.py out_ 1 10`
 
+`python3 actin_modeling_2.py out_ 1 100`
