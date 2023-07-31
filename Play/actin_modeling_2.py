@@ -18,6 +18,7 @@ import IMP.pmi.restraints.em
 import IMP.pmi.dof
 import IMP.atom
 import IMP.saxs
+import ihm.cross_linkers
 import sys
 import RMF
 
