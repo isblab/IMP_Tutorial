@@ -186,7 +186,7 @@ output_objects.append(emr)
 # First shuffle all particles to randomize the starting point of the
 # system. For larger systems, you may want to increase max_translation
 IMP.pmi.tools.shuffle_configuration(root_hier,
-                                    max_translation=100)
+                                    max_translation=10)
 
 # Shuffling randomizes the bead positions. It's good to
 # allow these to optimize first to relax large connectivity
