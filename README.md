@@ -19,7 +19,7 @@ See [Tanmoy's repo](https://github.com/tanmoy7989/masfe2023_workshop) for the co
 
 ### Crosslinks restraint : RNA Pol3 repo
 
-See [here](https://github.com/Pellarin/imp_tutorial_pol3). 
+See [here](https://github.com/Pellarin/imp_tutorial_pol3) for the repo related to Riccardo's talk. 
 
 ## IMP installation and resources
 https://integrativemodeling.org/doc.html
