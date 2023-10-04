@@ -21,6 +21,11 @@ See [Tanmoy's repo](https://github.com/tanmoy7989/masfe2023_workshop) for the co
 
 See [here](https://github.com/Pellarin/imp_tutorial_pol3) for the repo related to Riccardo's talk. 
 
+
+### PMI analysis GitHub repo
+
+See [Ignacias repo](https://github.com/salilab/pmi_analysis), part of IMP, for the code related to her talk.
+
 ## IMP installation and resources
 https://integrativemodeling.org/doc.html
 
