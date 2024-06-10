@@ -14,9 +14,11 @@ See this [Talks folder](https://drive.google.com/drive/folders/188BHx67a8Wq53nDT
 
 See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the complete tutorial text.
 
-### PMI analysis GitHub repo
+### Analysis GitHub repo
 
-See [Ignacias repo](https://github.com/salilab/pmi_analysis), part of IMP.
+See [PMI analysis repo](https://github.com/salilab/pmi_analysis) here.
+
+See [sampcon repo](https://github.com/salilab/sampcon) here. 
 
 ## IMP installation and resources
 https://integrativemodeling.org/doc.html
@@ -24,6 +26,8 @@ https://integrativemodeling.org/doc.html
 https://github.com/salilab/imp
 
 https://integrativemodeling.org/2.20.0/doc/manual/installation.html
+
+Users will need to have IMP and UCSF Chimera installed on their systems. 
 
 ### Paths to IMP installation on the workstations at the workshop
 #TODO
@@ -39,6 +43,7 @@ Some packages are at : `/usr/share`
 If you want to find an IMP script call `locate`.
 
 ## Running the modeling scripts
+#TODO
 
 Run from the `Play` directory. Examples:
 
