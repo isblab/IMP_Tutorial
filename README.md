@@ -1,39 +1,32 @@
 # IMP Tutorial
 
-This github repository corresponds to the [IMP workshop](https://sites.google.com/acads.iiserpune.ac.in/masfe/program/workshop?authuser=0) in [MASFE 2023](https://sites.google.com/acads.iiserpune.ac.in/masfe/) at IISER Pune.
+This github repository corresponds to the IMP workshop in [EMBO CEM3DPIP 2024](https://meetings.embo.org/event/24-cryo-em) at IISc Bangalore.
 
 ## Talks
 
 See this [Talks folder](https://drive.google.com/drive/folders/188BHx67a8Wq53nDTanM-vWwX3X9F_OS5?usp=sharing) for all the talks.
 
 ## Related tutorials and github repos
+
 ### Actin Tutorial  
 
 [![Build Status](https://github.com/salilab/actin_tutorial/workflows/build/badge.svg?branch=main)](https://github.com/salilab/actin_tutorial/actions?query=workflow%3Abuild)
 
 See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the complete tutorial text.
 
-### Custom restraints GitHub repo
-
-See [Tanmoy's repo](https://github.com/tanmoy7989/masfe2023_workshop) for the code related to his talk/demo. 
-
-### Crosslinks restraint : RNA Pol3 repo
-
-See [here](https://github.com/Pellarin/imp_tutorial_pol3) for the repo related to Riccardo's talk. 
-
-
 ### PMI analysis GitHub repo
 
-See [Ignacias repo](https://github.com/salilab/pmi_analysis), part of IMP, for the code related to her talk.
+See [Ignacias repo](https://github.com/salilab/pmi_analysis), part of IMP.
 
 ## IMP installation and resources
 https://integrativemodeling.org/doc.html
 
 https://github.com/salilab/imp
 
-https://integrativemodeling.org/2.19.0/doc/manual/installation.html
+https://integrativemodeling.org/2.20.0/doc/manual/installation.html
 
 ### Paths to IMP installation on the workstations at the workshop
+#TODO
 
 Primarily: `/usr/lib/pythonxx/dist-packages/IMP`
 
