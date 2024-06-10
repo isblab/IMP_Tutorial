@@ -20,14 +20,19 @@ See [PMI analysis repo](https://github.com/salilab/pmi_analysis) here.
 
 See [sampcon repo](https://github.com/salilab/sampcon) here. 
 
-## IMP installation and resources
+## Installation 
+
+### IMP
 https://integrativemodeling.org/doc.html
 
 https://github.com/salilab/imp
 
+Install binaries from here
 https://integrativemodeling.org/2.20.0/doc/manual/installation.html
 
-Users will need to have IMP and UCSF Chimera installed on their systems. 
+### Chimera
+Install UCSF Chimera from here 
+https://www.cgl.ucsf.edu/chimera/download.html 
 
 ### Paths to IMP installation on the workstations at the workshop
 #TODO
