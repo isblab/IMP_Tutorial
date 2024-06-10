@@ -34,6 +34,7 @@ https://integrativemodeling.org/2.20.0/doc/manual/installation.html
 Install UCSF Chimera from here 
 https://www.cgl.ucsf.edu/chimera/download.html 
 
+## Running the tutorial 
 ### Paths to IMP installation on the workstations at the workshop
 #TODO
 
@@ -47,7 +48,7 @@ Some packages are at : `/usr/share`
 
 If you want to find an IMP script call `locate`.
 
-## Running the modeling scripts
+### Running the modeling scripts
 #TODO
 
 Run from the `Play` directory. Examples:
