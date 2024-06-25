@@ -37,15 +37,12 @@ https://www.cgl.ucsf.edu/chimera/download.html
 ## Running the tutorial 
 
 ### Paths to IMP installation on the workstations at the workshop
-#TODO
 
-Primarily: `/usr/lib/pythonxx/dist-packages/IMP`
+Primarily: `/apps/conda/lib/python3.11/site-packages/IMP/`
 
-Some packages are at : `/usr/share`
+`create_gmm.py`: `/apps/conda/lib/python3.11/site-packages/IMP/isd`
 
-`create_gmm.py`: `/usr/lib/pythonxx/dist-packages/IMP/isd`
-
-`process_output.py`: `/usr/lib/pythonxx/dist-packages/IMP/pmi`
+`process_output.py`: `/apps/conda/lib/python3.11/site-packages/IMP/pmi`
 
 
 ### Running the modeling scripts
