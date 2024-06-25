@@ -30,6 +30,8 @@ https://github.com/salilab/imp
 Install binaries from here
 https://integrativemodeling.org/2.21.0/doc/manual/installation.html
 
+IMP installed via anaconda
+
 ### Chimera
 Install UCSF Chimera from here 
 https://www.cgl.ucsf.edu/chimera/download.html 
