@@ -36,8 +36,6 @@ em_weight = 1000.0
 
 # Topology File
 
-topology_file = "./topology_test.txt"
-
 topology_file = "../data/topology_test.txt"
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
