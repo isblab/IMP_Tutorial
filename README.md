@@ -3,7 +3,7 @@
 This GitHub repository corresponds to the IMP workshop in [Model building, Refinement and Validation of data derived from Cryo-EM](https://www.ncbs.res.in/events/cryo-em) at NCBS Bangalore.
 
 ## Google colab notebook
-<a target="_blank" href="https://github.com/isblab/IMP_Tutorial/blob/ncbs_ccpem/Colab_notebook/imp_tutorial_ccpem_workshop_2026.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/isblab/IMP_Tutorial/blob/ncbs_ccpem/Colab_notebook/imp_tutorial_ccpem_workshop_2026.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
