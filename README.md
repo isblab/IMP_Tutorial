@@ -1,56 +1,34 @@
 # IMP Tutorial
 
-This GitHub repository corresponds to the IMP workshop in [EMBO CEM3DPIP 2024](https://meetings.embo.org/event/24-cryo-em) at IISc Bangalore.
+This GitHub repository corresponds to the IMP workshop in [Model building, Refinement and Validation of data derived from Cryo-EM](https://www.ncbs.res.in/events/cryo-em) at NCBS Bangalore.
 
-## Talks
+## Google colab notebook
+<a target="_blank" href="https://colab.research.google.com/github/isblab/IMP_Tutorial/Colab_notebook/imp_tutorial_ccpem_workshop_2026.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
-See this [Talks folder](https://drive.google.com/drive/folders/188BHx67a8Wq53nDTanM-vWwX3X9F_OS5?usp=sharing) for all the talks.
+## Slides for the workshop
+Click [here](https://docs.google.com/presentation/d/1hnKXZMIRj-xJZWRoe0UKNYyMbZcDkbO8/edit?usp=sharing&ouid=107573675581756580599&rtpof=true&sd=true) for the slides
+
+## ChimeraX
+
+- Install UCSF ChimeraX[^chimerax] from here: https://www.cgl.ucsf.edu/chimerax/download.html
+- Install the [rmf viewer plugin](https://cxtoolshed.rbvi.ucsf.edu/apps/chimeraxrmf) for ChimeraX.
+
+  **Steps:**
+  1. Open ChimeraX and go to `Tools`>`More tools`.
+  2. Search for `RMF`
+  3. Click on `Install`
 
 ## Related tutorials and GitHub repos
 
-### Actin Tutorial  
-
-[![Build Status](https://github.com/salilab/actin_tutorial/workflows/build/badge.svg?branch=main)](https://github.com/salilab/actin_tutorial/actions?query=workflow%3Abuild)
-
-See [the IMP website](https://integrativemodeling.org/tutorials/actin/) for the complete tutorial text.
-
-### Analysis GitHub repos
-
-See [PMI analysis repo](https://github.com/salilab/pmi_analysis) here.
-
-See [sampcon repo](https://github.com/salilab/sampcon) here. 
-
-## Installation 
-
-### IMP
-https://integrativemodeling.org/doc.html
-
-https://github.com/salilab/imp
-
-Install binaries from here
-https://integrativemodeling.org/2.21.0/doc/manual/installation.html
-
-IMP installed via anaconda
-
-### Chimera
-Install UCSF Chimera from here 
-https://www.cgl.ucsf.edu/chimera/download.html 
-
-## Running the tutorial 
-
-### Paths to IMP installation on the workstations at the workshop
-
-Primarily: `/apps/conda/lib/python3.11/site-packages/IMP/`
-
-`create_gmm.py`: `/apps/conda/lib/python3.11/site-packages/IMP/isd`
-
-`process_output.py`: `/apps/conda/lib/python3.11/site-packages/IMP/pmi`
+- **GitHub repository**: [![View on GitHub](https://img.shields.io/badge/github-repo-blue?logo=github&label=actin_tutorial)](https://github.com/salilab/actin_tutorial)
+- **Tutorial**: [![See tutorial text](https://img.shields.io/badge/Actin%20Tutorial%20-8A2BE2)](https://integrativemodeling.org/tutorials/actin)
+- **Integrative Modeling Platform**[^imp]: [![View on GitHub](https://img.shields.io/badge/github-repo-blue?logo=github&label=imp)](https://github.com/salilab/imp)
+- **Python Modeling Interface**: [![View on GitHub](https://img.shields.io/badge/github-repo-blue?logo=github&label=pmi)](https://github.com/salilab/pmi)
+- **PMI analysis pipeline**:  [![View on GitHub](https://img.shields.io/badge/github-repo-blue?logo=github&label=pmi_analysis)](https://github.com/salilab/pmi_analysis)
 
 
-### Running the modeling scripts
+[^imp]: Saltzberg D, Greenberg CH, Viswanath S, Chemmama I, Webb B, Pellarin R, Echeverria I, Sali A. Modeling Biological Complexes Using Integrative Modeling Platform. Methods Mol Biol. 2019;2022:353-377. https://doi.org/10.1007/978-1-4939-9608-7_15.
 
-Run from the `Play` directory. Examples:
-
-`python3  actin_modeling_1.py out_ 1 10`
-
-`python3 actin_modeling_2.py out_ 1 100`
+[^chimerax]: Meng EC, Goddard TD, Pettersen EF, Couch GS, Pearson ZJ, Morris JH, et al. UCSF ChimeraX: Tools for structure building and analysis. Protein Sci. 2023;32(11):e4792. https://doi.org/10.1002/pro.4792.
