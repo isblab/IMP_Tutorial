@@ -1,0 +1,4 @@
+actin_tutorial-main.zip
+actin_tutorial-main/
+*.gitmodules
+actin_tutorial-clean/.github/workflows/*

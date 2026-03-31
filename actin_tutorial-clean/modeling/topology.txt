@@ -4,8 +4,8 @@
 |gmm_dir|./gmm_files/|
 
 |topology_dictionary|
-|molecule_name | color | fasta_fn       | fasta_id    | pdb_fn           | chain | residue_range | pdb_offset | bead_size | em_residues_per_gaussian | rigid_body | super_rigid_body | chain_of_super_rigid_bodies |
-|actin         |green  |sequences.fasta |actin        |actin_gelsolin.pdb|A      |1,END          |0           |1          |10                        |1           |1                 |                             |
-|geltrop       |red    |sequences.fasta |gelsolin     |actin_gelsolin.pdb|G      |52,177         |-51         |1          |10                        |1           |1                 |                             |
-|geltrop       |gray   |sequences.fasta |linker       |BEADS             |G      |178,195        |-51         |1          |10                        |1           |1                 |                             |
-|geltrop       |blue   |sequences.fasta |tropomodulin |tropomodulin.pdb  |G      |1170,1349      |-1025       |1          |10                        |2           |1                 |                             |
+|molecule_name | color | fasta_fn      | fasta_id | pdb_fn           | chain | residue_range | pdb_offset | bead_size | em_residues_per_gaussian | rigid_body | super_rigid_body | chain_of_super_rigid_bodies |
+|actin.0       |green  |sequences.fasta|actin     |actin_gelsolin.pdb|A      |1,END          |0           |1          |10                        |1           |1                 |                             |
+|geltrop.0     |red    |sequences.fasta|geltrop   |actin_gelsolin.pdb|G      |52,177         |-51         |1          |10                        |1           |1                 |                             |
+|geltrop.0     |gray   |sequences.fasta|geltrop   |BEADS             |G      |178,195        |-51         |1          |10                        |1           |1                 |                             |
+|geltrop.0     |blue   |sequences.fasta|geltrop   |tropomodulin.pdb  |G      |1170,1349      |-1025       |1          |10                        |2           |1                 |                             |
