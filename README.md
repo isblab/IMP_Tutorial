@@ -1,6 +1,8 @@
 # IMP Tutorial
 
-This GitHub repository corresponds to the IMP workshop in [Model building, Refinement and Validation of data derived from Cryo-EM](https://www.ncbs.res.in/events/cryo-em) at NCBS Bangalore.
+This GitHub repository corresponds to the IMP workshops conducted at
+- [Model building, Refinement and Validation of data derived from Cryo-EM](https://www.ncbs.res.in/events/cryo-em) at NCBS Bangalore
+- [Computational Biology Summer School 2026](https://www.ncbs.res.in/events/ss-0) at NCBS Bangalore
 
 ## Google colab notebook
 
@@ -12,7 +14,9 @@ This GitHub repository corresponds to the IMP workshop in [Model building, Refin
 </a> -->
 
 ## Slides for the workshop
-Click [here](https://docs.google.com/presentation/d/1hnKXZMIRj-xJZWRoe0UKNYyMbZcDkbO8/edit?usp=sharing&ouid=107573675581756580599&rtpof=true&sd=true) for the slides
+
+- [Model building, Refinement and Validation of data derived from Cryo-EM](https://docs.google.com/presentation/d/1hnKXZMIRj-xJZWRoe0UKNYyMbZcDkbO8/edit?usp=sharing&ouid=107573675581756580599&rtpof=true&sd=true)
+- [Computational Biology Summer School 2026]()
 
 ## ChimeraX
 
