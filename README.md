@@ -16,7 +16,7 @@ This GitHub repository corresponds to the IMP workshops conducted at
 ## Slides for the workshop
 
 - [Model building, Refinement and Validation of data derived from Cryo-EM](https://docs.google.com/presentation/d/1hnKXZMIRj-xJZWRoe0UKNYyMbZcDkbO8/edit?usp=sharing&ouid=107573675581756580599&rtpof=true&sd=true)
-- [Computational Biology Summer School 2026]()
+- [Computational Biology Summer School 2026](https://docs.google.com/presentation/d/135a-xgvbluJLAo_l0FxQ27Hc1Ux-yHn3/edit?usp=sharing&ouid=107573675581756580599&rtpof=true&sd=true)
 
 ## ChimeraX
 
